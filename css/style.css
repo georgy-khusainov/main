@@ -17,7 +17,7 @@ vertical-align: middle;
 }
 .text{
     width: 445px;
-    background-color: red;
+    /* background-color: red; */
     margin: 246px 95px 246px 165px;
     
 
@@ -41,6 +41,7 @@ margin-left: -3px;
 }
 .name_{
     display: inline-block;
+    margin-left: 16px;
 }
 .gopro{
     width: 140px;
@@ -51,6 +52,8 @@ margin-left: -3px;
     margin-left: 278px;
     margin-top: 13px;
 }
+
+
 h2{
     font-weight: 800;
     font-size: 48px;
@@ -60,6 +63,8 @@ h3{
 }
 h4{
     font-size: 14px;
+    color: #474A57;
+
 }
 p{
     font-size: 18px;
