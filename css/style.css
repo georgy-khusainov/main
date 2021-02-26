@@ -1,3 +1,10 @@
 body{
-    margin-left: 0px;
+    margin: 0 auto;
+}
+.clients-item{
+    width: 255px;
+    display: inline-block;
+    background-color: orange;
+    margin-right: -4px;
+    border-bottom: 10px green;
 }
