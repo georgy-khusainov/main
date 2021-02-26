@@ -1,3 +1,66 @@
 body{
-    margin-left: 0px;
+    font-family: "Manrope", sans-serif;
+}
+.conteiner{
+    margin: 0 auto;
+    display: inline-block;
+    width: 1440px;
+    background-color:#D5FAFC;
+    ;
+}
+.customer{
+width: 705px;
+background: #2EC5CE;
+display: inline-block;
+margin: auto;
+vertical-align: middle;
+}
+.text{
+    width: 445px;
+    background-color: red;
+    margin: 246px 95px 246px 165px;
+    
+
+}
+.jenny{
+width: 570px;
+background-color: #FFFFFF;
+display: inline-block;
+vertical-align: middle;
+margin-left: -3px;
+}
+.jenny__{
+    margin: 40px;
+}
+.comma{
+    margin: 0px 40px 0px 450.35px;
+}
+.name{
+    display: inline-block;
+    width: 255px;
+}
+.name_{
+    display: inline-block;
+}
+.gopro{
+    width: 140px;
+    display: inline-block;
+}
+.arrov{
+    display: inline-block;
+    margin-left: 278px;
+    margin-top: 13px;
+}
+h2{
+    font-weight: 800;
+    font-size: 48px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 18px;
 }
