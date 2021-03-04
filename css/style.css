@@ -1,3 +1,7 @@
+.conteiner{
+    width: 1600px;
+    margin: 0 auto;
+}
 .picture{
     width: 540px;
     display: inline-block;
@@ -6,24 +10,40 @@
 .text{
     width: 540px;
     display: inline-block;
-    padding-left: 48px;
-    padding-right: 48px;
+    top: -246px;
+    /* padding-left: 48px;
+    padding-right: 48px; */
 }
 .icon{
     width: 444px;
     height: 144px;
 
 }
-.headline{
-    /* display: inline-block;
-    width: 400px;
-    margin-left: 28px; */
+.block-big{
+    
+}
+.block{
+line-height: 24px;
+}
+.block-column1{
+    display: inline-block;
+    margin-right: 16px;
+    
+}
+.block-column2{
+    display: inline-block;
+    
 }
 h3{
     font-weight: 800;
     font-size: 40px;
+    margin-bottom: 16px;
 }
 h6{
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: -18px;
+}
+img{
+    margin: 4px;
 }
