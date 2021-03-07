@@ -1,18 +1,31 @@
 .conteiner{
-    width: 1600px;
+    width: 1150px;
     margin: 0 auto;
 }
 .picture{
-    width: 540px;
+    width: 564px;
     display: inline-block;
     margin-right: 30px;
+padding: 20px;
+}
+img{
+    position: relative;
+    margin: 10px;
+}
+.additionally-3{
+    width: 171px;
+    height: 292px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    top: -70px;
 }
 .text{
     width: 540px;
     display: inline-block;
-    top: -246px;
-    /* padding-left: 48px;
-    padding-right: 48px; */
+    top: 137px;
+    position: absolute;
 }
 .icon{
     width: 444px;
@@ -20,10 +33,8 @@
 
 }
 .block-big{
-    
-}
-.block{
-line-height: 24px;
+    padding: 0;
+    width: 250px;
 }
 .block-column1{
     display: inline-block;
@@ -32,7 +43,18 @@ line-height: 24px;
 }
 .block-column2{
     display: inline-block;
-    
+    height: 88px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    padding: 10px 21px 10px 22px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color:#8C30F5;
+    color: White;
+    cursor: pointer;
+    margin-top: 50px;
 }
 h3{
     font-weight: 800;
@@ -44,6 +66,7 @@ h6{
     font-size: 20px;
     margin-bottom: -18px;
 }
-img{
-    margin: 4px;
+p{
+    line-height: 32px;
+    font-size: 18px;
 }
