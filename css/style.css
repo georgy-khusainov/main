@@ -1,11 +1,46 @@
-.les1112{
-    position: relative;
-    
+
+.headline{
+    padding: 133px 0 144px 0;
 }
-.les1112::before{
+.headline-img{
+    position: relative;
+    width: 395px;
+    height: 391px;
+    display: inline-block;
+}
+img{
+    position: relative;
+    z-index: 1;
+}
+.headline-img::before{
     content: "";
     display: block;
     width: 540px;
     height: 540px;
     background-color: indigo;
+    border-radius: 270px;
+    position: absolute;
+    top: 50%;
+    margin-top: -275px;
+    right: 50%;
+    margin-right: -275px;
+}
+.description{
+    background-color: aquamarine;
+    width: 444px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.description_subtitle{
+    text-transform: uppercase;
+}
+.description_text{
+    line-height: 32px;
+}
+button{
+    background-color: rgb(128, 0, 6);
+    color: lime;
+    cursor: pointer;
+    outline: 0;
 }
