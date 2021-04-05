@@ -273,6 +273,7 @@ img.arrow{
     margin-top: 100px;
     box-sizing: border-box;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .end-trafalgar{
     width: 391px;
@@ -371,10 +372,105 @@ img.customer{width: 1820px;}
 }
     
 /* 425 */
-/* @media screen and ( max-width: 425px) */
+@media screen and (max-width: 426px){
+    .container{width: 390px; font-size: 13px;}
+    .end{width: 390px; margin-top: 50px; font-size: 7px;}
+    img.customer{width: 390px;}
+    .logo{width: 30px;height: 30px;}
+    .trafalgar{font-size: 17px;}
+    .home{width: 240px; line-height: 0px; margin-left: 24px;font-size: 15px;}
+    h1.virtual{font-size: 21px;line-height: 26px;}
+    p.virtual{font-size: 15px;}
+    .virtual-cards{ width: 170px;height: 300px;}
+    button.consult{width: 170px;}
+    img.medicine{width: 200px; height: 300px;}
+    .services-item{width: 110px; height: 110px; font-size: 9px; justify-content: center; padding: 0;}
+    img.services-item__img{width: 39px;height: 39px;
+    }
+    button.services{font-size: 10px;}
+    .services{margin-top: 160px;}  
+    img.leading {width: 138px;} 
+    .leading-text {font-size: 5px;width: 220px;height: 121px;}
+    p.text-services__leading{font-size: 8px;line-height: 14px;}
+    button.services {margin-top: 20px;width: 60px;}
+    h2.check{font-size: 23px;line-height: 21px;}
+    .check-items{width: 100px; height: 250px; font-size: 10px;}
+    img.check-items{width: 100px; height: 90px;}
+    span.grow{font-size: 7px;}
+    .end-trafalgar{width: 150px;height: 162px; font-size: 7px;}
+    .end-help {height: 201px;width: 47px;}
+}   
 
 /* 375 */
-/* @media screen and ( max-width: 375px) */
+@media screen and (max-width: 376px){
+    .container{width: 325px; font-size: 13px;}
+    .end{width: 325px; margin-top: 50px; font-size: 7px;}
+    img.customer{width: 325px;}
+    .logo{width: 20px;height: 20px;}
+    .trafalgar{font-size: 10px;}
+    .home{width: 210px; line-height: 0px; margin-left: 24px;font-size: 10px;}
+    h1.virtual{font-size: 18px;line-height: 23px;}
+    p.virtual{font-size: 12px;}
+    .virtual-cards{ width: 170px;height: 300px;}
+    button.consult{width: 110px; font-size: 11px;}
+    .text-line{font-size: 12px;}
+    p.text-services{ font-size: 8px;line-height: 16px;
+    }
+    img.medicine{width: 180px; height: 300px;}
+    .services-item{width: 67px; height: 70px; font-size: 7px; justify-content: center; padding: 0;}
+    img.services-item__img{width: 39px;height: 39px;
+    }
+    button.services{font-size: 7px;}
+    .services{margin-top: 70px;}  
+    img.leading {width: 90px;} 
+    .leading-text {font-size: 5px;width: 180px;height: 120px;}
+    p.text-services__leading{font-size: 5px;line-height: 8px;}
+    button.services {margin-top: 20px;width: 60px;}
+    h2.check{font-size: 23px;line-height: 21px;}
+    .check-items{width: 80px; height: 150px; font-size: 8px;}
+    img.check-items{width: 80px; height: 70px;}
+    span.grow{font-size: 6px;}
+    .end-trafalgar{width: 150px;height: 150px; font-size: 6px;}
+    .end-help {height: 150px;width: 40px;}
+    .logo-2{width: 20px;height: 20px; font-size: 15px;}
+    .end-trafalgar__logo {font-size: 20px;}
+}   
 
 /* 320 */
-/* @media screen and ( max-width: 320px) */
+@media screen and (max-width: 321px){
+    .container{width: 280px; font-size: 10px;}
+    .end{width: 280px; margin-top: 50px; font-size: 5px;}
+    img.customer{width: 280px;}
+    .logo{width: 18px;height: 18px;}
+    .trafalgar{font-size: 8px;}
+    .home{width: 180px; line-height: 0px; font-size: 8px;}
+    h1.virtual{font-size: 8px;line-height: 9px;}
+    p.virtual{font-size: 8px; line-height: 12px;}
+    .virtual-cards{ width: 170px;height: 150px;}
+    button.consult{width: 90px;height: 25px; font-size: 9px;}
+    .text-line{font-size: 12px; line-height: 19px;}
+    .our-services {margin-top: 70px;}
+    p.text-services{ font-size: 8px;line-height: 16px;}
+    img.medicine{width: 130px; height: 280px;}
+    .services-item{width: 50px; height: 70px; font-size: 6px; justify-content: center; padding: 0;}
+    img.services-item__img{width: 20px;height: 20px;}
+    button.services{font-size: 7px;}
+    .services{margin-top:70px;} 
+    .leading-care {margin-top: 80px;} 
+    .leading-text {font-size: 5px;width: 140px;height: 100px;}
+    img.line {width: 30px;}
+    p.text-services__leading{font-size: 5px;line-height: 8px;}
+    .mobile-apps {margin-bottom: 80px;}
+    .check-text {margin-top: 27px;margin-bottom: 22px;}
+    /* ffgb */
+    button.services {margin-top: 20px;width: 60px;}
+    h2.check{font-size: 23px;line-height: 21px;}
+    .check-items{width: 80px; height: 150px; font-size: 8px;}
+    img.check-items{width: 80px; height: 70px;}
+    span.grow{font-size: 6px;}
+    .end-trafalgar{width: 150px;height: 150px; font-size: 6px;}
+    .end-help {height: 150px;width: 40px;}
+    .logo-2{width: 20px;height: 20px; font-size: 15px;}
+    .end-trafalgar__logo {font-size: 20px;}
+}   
+
