@@ -6,3 +6,67 @@ body {
 
 h1, h2, h3, h4, p {
     margin: 0;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    color: white;
+}
+
+.customer-slider__wrapper{
+    padding: 64px 118px 79px 118px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+border-radius: 24px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 94px;
+}
+.customer-slider__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-slider__img{
+    display: flex;
+    align-items: center;
+}
+img{
+    margin-right: 29px;
+}
+p{
+    max-width: 420px;
+}
+
+/* настройка слик слайдера */
+
+.slider-arrow{
+    position: absolute;
+    bottom: -42px;
+    z-index: 99;
+    width: 29px;
+    height: 20px;
+    cursor: pointer;
+}
+.slider-arrow__left{
+    background: url(../img/arrow-left.png) center no-repeat;
+    right: 50%;
+    margin-right: 100px;
+    
+}
+
+.slider-arrow__right{
+    background: url(../img/arrow-right.png) center no-repeat;
+    left: 50%;
+    margin-left: 100px;
+}
+
+/* перебивка точек */
+.slick-dots{
+    bottom: -42px;
+}
+.slick-dots li button:before{
+    content: url(../img/dot.png);
+}
