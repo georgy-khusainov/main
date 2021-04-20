@@ -2,131 +2,100 @@ body {
     font-family: "Manrope-Medium", sans-serif;
     margin: 0;
     color: #18191F;
-}
-
-h1, h2, h3, h4, h5, p {
+    }
+    
+    h1, h2, h3, h4, h5, p {
     margin: 0;
-}
-.container{
-width: 1177px;
-padding-left: 135px;
-padding-right: 135px;
-
-}
-.head{
+    }
+    .container{
+    width: 1177px;
+    padding-left: 135px;
+    padding-right: 135px;
+    
+    }
+    .head{
     display: flex;
     flex-direction: row;
-}
-.head-left{
-width: 916px;
-}
-.head-left_begin{
+    }
+    .head-left{
+    width: 916px;
+    }
+    .head-left_begin{
     display: flex;
-}
-h5.head-left_begin{
+    }
+    h5.head-left_begin{
     margin-left: 60px;
-}
-img.head-left_begin{
+    }
+    img.head-left_begin{
     margin-right: 70px;
     width: 20px;
     height: 20px;
     
-}
-.design-poster{
+    }
+    .design-poster{
     width: 545px;
     height: 360px;
     margin-top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-h1.design-furniture{
+    }
+    
+    h1.design-furniture{
     font-weight: bold;
     font-size: 57px;
-}
-.design-poster_cost{
+    }
+    .design-poster_cost{
     display: flex;
     flex-direction: row;
-}
-h5.design-poster_chair{
+    }
+    h5.design-poster_chair{
     font-weight: normal;
-    font-size: 20px;    
-}
-h5.design-poster_chair{
+    font-size: 20px;
+    }
+    h5.design-poster_chair{
     font-weight: normal;
-    font-size: 20px; 
+    font-size: 20px;
     margin: 0;
-}
-h3.design-poster_cost{
+    }
+    h3.design-poster_cost{
     font-weight: 600;
     font-size: 30px;
     margin-left: 22px;
-}
-button.pay{
+    }
+    button.pay{
     width: 238px;
     height: 58px;
     font-size: 16px;
     background-color: #303032;
     color: white;
-}
-.head-right{
+    }
+    .head-right{
     background-color: #FCEAE8;
     width: 524px;
     display:flex;
     flex-direction: column;
     align-items: flex-end;
-}
-img.right-begin{
+    }
+    img.right-begin{
     margin-left: 26px;
-}
-.number-slider{
+    }
+    .number-slider{
     margin-top: 200px;
-    line-height: 40px   ;
-}
-.number-now{
+    line-height: 40px ;
+    }
+    .number-now{
     display: inline-block;
-}
-img.line{
+    }
+    img.line{
     height: 40px;
-}
-h2.number-now{
-
+    }
+    h2.number-now{
+    
     font-size: 40px;
-}
-h3.number-next{
+    }
+    h3.number-next{
     font-weight: normal;
-font-size: 20px;
-color: #000000, 30%;
-}
-
-/* настройка слик слайдера */
-
-.slider-arrow{
-    position: absolute;
-    bottom: -42px;
-    z-index: 99;
-    width: 29px;
-    height: 20px;
-    cursor: pointer;
-    }
-    .slider-arrow__left{
-    background: url(../img/arrow-left.png) center no-repeat;
-    right: 50%;
-    margin-right: 100px;
-    
-    }
-    
-    .slider-arrow__right{
-    background: url(../img/arrow-right.png) center no-repeat;
-    left: 50%;
-    margin-left: 100px;
-    }
-    
-    /* перебивка точек */
-    .slick-dots{
-    bottom: -42px;
-    }
-    .slick-dots li button:before{
-    content: url(../img/dot.png);
+    font-size: 20px;
+    color: #000000, 30%;
     }
