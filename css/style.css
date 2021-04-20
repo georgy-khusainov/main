@@ -4,5 +4,98 @@ body {
     color: #18191F;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, p {
     margin: 0;
+}
+.container{
+width: 1177px;
+padding-left: 135px;
+padding-right: 135px;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+.head-left{
+width: 916px;
+}
+.head-left_begin{
+    display: flex;
+}
+h5.head-left_begin{
+    margin-left: 60px;
+}
+img.head-left_begin{
+    margin-right: 70px;
+    width: 20px;
+    height: 20px;
+    
+}
+.design-poster{
+    width: 545px;
+    height: 360px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1.design-furniture{
+    font-weight: bold;
+    font-size: 57px;
+}
+.design-poster_cost{
+    display: flex;
+    flex-direction: row;
+}
+h5.design-poster_chair{
+    font-weight: normal;
+    font-size: 20px;    
+}
+h5.design-poster_chair{
+    font-weight: normal;
+    font-size: 20px; 
+    margin: 0;
+}
+h3.design-poster_cost{
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 22px;
+}
+button.pay{
+    width: 238px;
+    height: 58px;
+    font-size: 16px;
+    background-color: #303032;
+    color: white;
+}
+.head-right{
+    background-color: #FCEAE8;
+    width: 524px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+img.right-begin{
+    margin-left: 26px;
+}
+.number-slider{
+    margin-top: 200px;
+    line-height: 40px   ;
+}
+.number-now{
+    display: inline-block;
+}
+img.line{
+    height: 40px;
+}
+h2.number-now{
+
+    font-size: 40px;
+}
+h3.number-next{
+    font-weight: normal;
+font-size: 20px;
+color: #000000, 30%;
+}
