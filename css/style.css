@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: "Manrope-Medium", sans-serif;
     margin: 0;
     color: #18191F;
@@ -13,12 +13,16 @@ body {
     padding-right: 135px;
     
     }
+    /* .hat{
+        display: flex;
+        flex-direction: row;
+    } */
     .head{
     display: flex;
     flex-direction: row;
     }
     .head-left{
-    width: 916px;
+    width: 781px;
     }
     .head-left_begin{
     display: flex;
@@ -70,22 +74,28 @@ body {
     background-color: #303032;
     color: white;
     }
+    /* img.chair{
+        position: absolute;
+    } */
     .head-right{
     background-color: #FCEAE8;
-    width: 524px;
+    width: 389px;
     display:flex;
     flex-direction: column;
     align-items: flex-end;
     }
     img.right-begin{
     margin-left: 26px;
+    display: flex;
+    flex-direction: row;
     }
     .number-slider{
     margin-top: 200px;
     line-height: 40px ;
     }
     .number-now{
-    display: inline-block;
+    display:flex;
+    flex-direction: row;
     }
     img.line{
     height: 40px;
@@ -98,4 +108,16 @@ body {
     font-weight: normal;
     font-size: 20px;
     color: #000000, 30%;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+
+    /* слайдер */
+    .slider-arrow{
+        position: absolute;
+        bottom: 0;
+        width: 29px;
+        height: 20px;
+        background-color: red;
     }
