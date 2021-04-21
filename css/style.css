@@ -114,10 +114,32 @@
     }
 
     /* слайдер */
-    .slider-arrow{
+        .slider-arrow{
         position: absolute;
-        bottom: 0;
+        bottom: -42px;
+        z-index: 99;
         width: 29px;
         height: 20px;
-        background-color: red;
+        cursor: pointer;
+        }
+        .slider-arrow__left{
+        background: url(../img/arrow-left.png) center no-repeat;
+        right: 50%;
+        margin-right: 100px;
+        
+        }
+        
+        .slider-arrow__right{
+        background: url(../img/arrow-right.png) center no-repeat;
+        left: 50%;
+        margin-left: 100px;
+        }
+    /* перебивка точек */
+.slick-dots{
+    bottom: -42px;
     }
+    .slick-dots li button:before{
+    content: url(../img/dot.png);
+    }
+
+    
