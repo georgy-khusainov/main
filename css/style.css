@@ -36,7 +36,6 @@
     margin-right: 70px;
     width: 20px;
     height: 20px;
-    
     }
     .design-poster{
     width: 545px;
@@ -146,19 +145,57 @@
 /* адаптивка */
 
 /* 1920px */
-@media screen and (max-width: 1920px){
-    /* .container{width: 1820px; margin: 0 auto; background-color:} */
-    img.chair{width: 561px;}
-    .head-right{width: 196px;}
-    .head-left{width: 686px; padding-left: 135px;}
-     
+@media screen and (min-width: 1920px){
+    .container{width: 1920px; margin: 0 auto;}
+    img.chair{width: 718px;}
+    .head-right{width: 353px;margin-left: -2px;}
+    .head-left{width: 843px; padding-left: 235px;}
+}
 /* 1440px */
 @media screen and (max-width: 1440px){
-    .container{width: 1120px; margin: 0 auto;}
-    .head-left{width: 477px;}
+    .container{width: 1447px; margin: 0 auto;}
+    .head-left{width: 686px;} 
+    /* 0,476 */
+    img.chair{width: 561px;}
+    /* 0,389 */
+    .head-right{width: 196px;margin-left: -2px;}
+    /* 0,136 */
 }
 /* 1024px */
+@media screen and (max-width: 1024px){
+    .container{width: 1024px; margin: 0 auto;} 
+    .head-left{width: 410px;} 
+    img.chair{width: 371px;}
+    .head-right{width: 139px;margin-left: -2px;}
+    h5.head-left_begin {margin-left: 52px;}
+    img.head-left_begin {margin-right: 0px;}
+    h1.design-furniture {font-weight: bold;font-size: 51px;}
+    h3.design-poster_cost {font-size: 25px;}
+    h5.design-poster_chair {font-size: 17px;}
+    button.pay {width: 145px;height: 39px;font-size: 14px;}
+    img.right-begin {margin-right: 13px; width: 21px; height: 22px;}
+    h2.number-now {font-size: 30px;}
+    h3.number-next {font-size: 18px;}
+    .slider-arrow {bottom: -42px;width: 25px;height: 18px;}
+}
 /* 768px  */
+@media screen and (max-width: 768px){
+    .container{width: 768px; margin: 0 auto;} 
+    .head-left{width: 273px; padding-left: 35px;} 
+    img.chair{width: 371px;}
+    .head-right{width: 139px;margin-left: -2px;}
+    h5.head-left_begin {margin-left: 26px;font-size: 11px;}
+    img.head-left_begin {margin-right: 0px; width: 17px; height: 17px;}
+    .design-poster {width: 273px;height: 360px;margin-top: 90px;}
+    h1.design-furniture {font-weight: bold;font-size: 33px;}
+    h3.design-poster_cost {font-size: 25px;}
+    h5.design-poster_chair {font-size: 17px;}
+    button.pay {width: 145px;height: 39px;font-size: 14px;}
+    img.right-begin {margin-right: 13px; width: 21px; height: 22px;}
+    h2.number-now {font-size: 30px;}
+    h3.number-next {font-size: 18px;}
+    .slider-arrow {bottom: -42px;width: 25px;height: 18px;}
+}
 /* 425px */
 /* 375px */
 /* 320px */
