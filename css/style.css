@@ -15,6 +15,7 @@
     /* padding-left: 135px; */
     box-sizing: border-box;
     /* padding-right: 135px; */
+    
     /
     }
     .hat{
@@ -229,8 +230,10 @@ h2.last-chaire{
 font-weight: bold;
 font-size: 28px;
 }
-img.last-chaire{
-    
+img.last-line {
+    position: relative;
+    width: 90px;
+    height: 4px;
 }
 .last-furniture{
     width: 325px;
@@ -252,30 +255,64 @@ h5.last-furniture{
     color: #00000066;
 }
 .last-sale{
-    background-color: blue;
+    /* background-color: blue; */
     position: relative;
     margin-left: 10%;
-    margin-right: 10%;
+    padding-right: 10%;
     margin-top: -378px;
         z-index: 100;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-bottom: 300px;
+        margin-bottom: 166px;
+        box-shadow: 0px 0px 20px 0px #0000000D;
+
+
+
     }
     img.last-chaire{
         position: relative;
         width: 80%;
         height: 80%;
+        right: -19%;
 
     }
 
 .last-sale_chaire{
-    background-color: brown;
+    background-color: white;
     width: 14%;
-    height: 400px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 23px;
+    padding-top: 26px;
+    box-sizing: border-box;
 }
+.last-sale_chaire-new{
+    background-color: white;
+    width: 14%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 23px;
+    padding-top: 26px;
+    box-sizing: border-box;
+}
+button.last-buy{
+    position: relative;
+    width: 100%;
+    height: 58px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button.last-buy:hover{
+    background-color: brown;
+}
+
 h5.last-sale_chaire-now{
     font-family: Open Sans;
     font-style: normal;
@@ -284,6 +321,10 @@ h5.last-sale_chaire-now{
 }
 .sold{
     display: flex;
+justify-content: flex-end;
+    width: 70%;
+    
+    margin: auto 0 0 0;
 
 }
 h3.sold-now{
@@ -297,6 +338,73 @@ h4.sold{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
+    text-decoration-line: line-through;
+    color: #979798;
+
+}
+
+/* концовка */
+.end-chaire{
+
+margin-bottom: 30px;
+box-sizing: border-box;
+padding-right: 10%;
+padding-left: 10%;
+display: flex;
+flex-direction: row;
+
+
+}
+img.img-end{
+
+}
+.end-chaire_left{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.end-left{
+  display: flex;
+  flex-direction: row;
+  
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+img.last-email{
+    width: 15px;
+    height: 15px;
+}
+p.last-number{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+margin-left: 7px;
+}
+.end-number{
+    display: flex;
+    flex-direction: row;
+}
+.end-chaire_right{
+    
+    width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+right: 0%;
+}
+h5.end-right{
+    font-family: Avenir Next;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}
+img.line-end{
+    width: 80%;
+    height: 4px;
+    margin-bottom: 300px;
+    margin-left: 10%;
 }
 
 
