@@ -1,0 +1,28 @@
+/* 3 блок */
+.container{
+    width: 1447px;
+    padding-left: 135px;
+    box-sizing: border-box;
+    /* padding-right: 135px; */
+background-color: aquamarine;
+    }
+.reviev{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 0 auto;
+}
+img.reviev_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.reviev_name-student{
+    display: flex;
+    flex-direction: column;
+}
+h3.reviev-name{
+    font-size: 500px;
+    color: blue;
+}
