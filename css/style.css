@@ -21,7 +21,8 @@
     .hat{
         box-sizing: border-box;
         padding-left: 10%;
-        padding-right: 10%;
+        /* padding-right: 10%; */
+        width: 100%;
     }
     .head{
     display: flex;
@@ -131,6 +132,7 @@
     padding-left: 10%;
     margin-top: 130px;
     box-sizing: border-box;
+    margin-bottom: 100px;
 }
 .new_left_block{
     display: flex;
@@ -352,7 +354,7 @@ padding-right: 10%;
 padding-left: 10%;
 display: flex;
 flex-direction: row;
-
+flex-wrap: wrap;
 
 }
 img.img-end{
@@ -445,7 +447,7 @@ img.line-end{
 
 /* 1920px */
 @media screen and (min-width: 1920px){
-    .container{width:1920px; margin: 0 auto;padding-left:235px;}
+    .container{width:1920px; margin: 0 auto;padding-left:0;}
     img.chair{width: 38%;}
     .head-right{width: 353px;margin-left: -2px;}
     .head-left{width: 843px; }
@@ -461,6 +463,13 @@ img.line-end{
     p.left-text{font-weight: 600;font-size: 30px;margin-top: 10px ;}
     img.new_img{width: 70%; height: 200px;}
     img.right-img{width: 100%;}
+    .reviev-slide{height: 270px;}
+    .reviev_name-student{font-size: 26px;}
+    h3.reviev-name_student{font-size: 23px;}
+    h4.reviev_content{font-size: 21px;}
+    img.last-email {width: 20px;height: 20px;}
+    p.last-number{font-size: 18px;}
+    h5.end-right{font-size: 17px;}
 
 }
 /* 1440px */
@@ -475,7 +484,7 @@ img.line-end{
     img.new_img{width: 80%; height: 200px;}
 }
 /* 1024px */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1025px){
     .container{width: 1024px; margin: 0 auto;} 
     .head-left{width: 410px;} 
     img.chair{width: 371px;}
@@ -495,10 +504,25 @@ img.line-end{
     .new_left_block{width: 90%;}
     img.new_img{width: 70%; height: 250px;}
     .new_right_block {width: 60%;margin: 0 auto;margin-top: 73px;}
+    .reviev-slide{height: 270px;}
+    .reviev_name-student{font-size: 26px;}
+    h3.reviev-name_student{font-size: 20px;}
+    h4.reviev_content{font-size: 18px;}
+    .last-sale_chaire{padding-left: 17px;padding-top: 20px; height:339px;}
+    .chaire-sale{width: 50%;}
+    .last-sale_chaire-new{padding-left: 17px;padding-top: 20px; height:339px;}
+    .sold{width: 75%;}
+    h5.last-sale_chaire-now{font-size: 14px;}
+    h3.sold-now{font-size: 18px;}
+    h4.sold{font-size: 13px;}
+    .end-left{width: 75%;}
+    img.last-email {width: 13px;height: 13px;}
+    p.last-number{font-size: 15px;}
+    h5.end-right{font-size: 13px;}
 }
 /* 768px  */
-@media screen and (max-width: 767px){
-    .container{width: 767px; margin: 0 auto; padding-right: 0px; padding-left: 80px;} 
+@media screen and (max-width: 769px){
+    .container{width: 768px; margin: 0 auto; padding-right: 0px; padding-left: 80px;} 
     .head-left{width: 42%;} 
     img.chair{width: 38%;}
     .head-right{width: 21%;margin-left: -2px;}
@@ -521,33 +545,84 @@ img.line-end{
     img.new_img{width: 100px; height: 100px;}
     img.right-img{width: 100%}
     .new_right_block{margin: 0 auto;}
+
+    .reviev-slide{height: 270px;}
+    .reviev_name-student{font-size: 26px;}
+    h3.reviev-name_student{font-size: 20px;}
+    h4.reviev_content{font-size: 18px;}
+    h2.last-chaire {font-size: 26px;}
+    .last-furniture {width: 100%;}
+
+    .last-sale_chaire-new{padding-left: 17px;padding-top: 20px; height: 391px; width: 30%;margin-bottom: 39px;}
+    .last-sale_chaire{padding-left: 17px;padding-top: 20px; height:339px; width: 30%;}
+    .chaire-sale{width: 50%; height: 937px;}
+    .last-sale{margin-top: -726px;}
     
+    .sold{width: 80%;}
+    h5.last-sale_chaire-now{font-size: 21px;}
+    h3.sold-now{font-size: 20px;}
+    h4.sold{font-size: 15px;}
+
+    .end-left{width: 90%;}
+    img.last-email {width: 12px;height: 12px;}
+    p.last-number{font-size: 12px;}
+    h5.end-right{font-size: 10px;}
 }
+    
 /* 425px */
-@media screen and (max-width: 425px){
-.container{width: 425px; margin: 0 auto; padding-right: 0px; padding-left: 40px;}
+@media screen and (max-width: 426px){
+.container{width: 425px; margin: 0 auto; padding-right: 0px; padding-left: 0px;}
     .head-left{width: 42%;} 
     img.chair{width: 38%;}
     .head-right{width: 21%;margin-left: -2px;}
     h5.head-left_begin {margin-left: 11px;font-size: 8px;}
-    img.head-left_begin {margin-right: 0px; width: 10px; height: 10px;}
+    img.head-left_begin {margin-right: 0px; width: 12px; height: 12px;}
     .design-poster {width: 100%;height: 360px;margin-top: 50px;}
-    h1.design-furniture {font-weight: bold;font-size: 33px;}
-    h3.design-poster_cost {font-size: 25px;}
-    h5.design-poster_chair {font-size: 17px;}
-    button.pay {width: 145px;height: 39px;font-size: 14px;}
+    h1.design-furniture {font-weight: bold;font-size: 20px;}
+    h3.design-poster_cost {font-size: 22px;}
+    h5.design-poster_chair {font-size: 15px;}
+    button.pay {margin-left: 2px; width: 100px;height: 30px;font-size: 14px;}
     img.right-begin {margin-right: 13px; width: 21px; height: 22px;}
-    h2.number-now {font-size: 30px;}
+    h2.number-now {font-size: 25px;}
     h3.number-next {font-size: 18px;}
     .slider-arrow {bottom: -42px;width: 25px;height: 18px;}
     .new-furniture{padding-right: 80px;}
     .new_left_block{width: 100%;}
-    .new_left_furniture {width: 45%;height: 50%;margin-right: 20px;}
+    .new_left_furniture {width: 42%;height: 50%;margin-right: 10px; margin-bottom: 20px;}
     .new-left-text{font-weight: normal;font-size: 20px;}
     p.left-text{font-weight: 600;font-size: 30px;margin-top: 10px ;}
     img.new_img{width: 100px; height: 100px;}
     img.right-img{width: 100%}
-    .new_right_block{margin: 0 auto;} 
-]
+    .new_right_block{margin: 0 auto; } 
+
+    .reviev-slide{height: 220px;}
+    .reviev_name-student{font-size: 20px;}
+    h3.reviev-name_student{font-size: 20px;}
+    h4.reviev_content{font-size: 12px; width: 100%;}
+    
+    .chaire-sale{width: 100%; height: 138px; background-color: white;}
+    h2.last-chaire {font-size: 20px; }
+    .last-furniture {width: 100%;}
+
+    .last-sale_chaire-new{padding-left: 17px;padding-top: 20px; height: 391px; width: 100%;margin-bottom: 39px;padding-left: 25px;}
+    .last-sale_chaire{padding-left: 17px;padding-top: 20px; height:339px; width: 30%; display: none;}
+    
+    .last-sale{margin-top: 10px; margin-bottom: 50px;}
+    
+    .sold{width: 50%;}
+    .end-chaire {margin-bottom: 9px;}
+    .end-chaire_left{width: 90%;}
+    .end-number{width: 100%; margin-bottom: 10px;}
+    .end-chaire_right {width: 100%; flex-wrap: wrap; }
+    h5.end-right {font-size: 10px;width: 115px; margin-bottom: 10px;}
+    h5.last-sale_chaire-now{font-size: 21px;}
+    h3.sold-now{font-size: 20px;}
+    h4.sold{font-size: 15px;}
+
+    .end-left{width: 90%; flex-wrap: wrap;}
+    img.last-email {width: 12px;height: 12px;}
+    p.last-number{font-size: 13px;}
+    h5.end-right{font-size: 10px;}
+}
 /* 375px */
 /* 320px */
